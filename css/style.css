@@ -36,6 +36,7 @@ main {
 
 .container-menu ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     list-style-type: none;
 }
@@ -53,4 +54,15 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-logo{
+        width: 30%;
+    }
+
+    .container-menu ul{
+        justify-content: center;
+    }
+
 }
