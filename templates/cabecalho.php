@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="<?= dirname('/touristic/css/style.css') . DIRECTORY_SEPARATOR . 'carrossel.css'; ?>">
     <link rel="stylesheet" href="<?= dirname('/touristic/css/style.css') . DIRECTORY_SEPARATOR . 'image_grid.css'; ?>">
     <link rel="stylesheet" href="<?= dirname('/touristic/css/style.css') . DIRECTORY_SEPARATOR . 'vertical_menu.css'; ?>">
+    <link rel="stylesheet" href="<?= dirname('/touristic/css/blog.css') . DIRECTORY_SEPARATOR . 'blog.css'; ?>">
 </head>
 
 <body>
