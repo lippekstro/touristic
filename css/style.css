@@ -7,6 +7,8 @@
 
 body {
     background-color: beige;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
@@ -45,6 +47,14 @@ main {
     padding: 1rem;
     text-decoration: none;
     color: black;
+}
+
+.container-menu li {
+    margin: 1rem;
+}
+
+.menu-ativo {
+    background-color: darkkhaki;
 }
 
 footer {
