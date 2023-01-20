@@ -2,7 +2,7 @@
 require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR . 'cabecalho.php';
 ?>
 
-<div>
+<div class="container-blog">
     <?php for ($i=0; $i < 5; $i++): ?>
     <div class="card">
         <img src="https://source.unsplash.com/random/1920x1080/?landscape,mountain" alt="Avatar" style="width:20%">

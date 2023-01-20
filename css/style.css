@@ -23,6 +23,15 @@ main {
     margin: 1rem;
 }
 
+button {
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+}
+
 .container-head {
     display: flex;
     background-image: url(../img/azulejo.png);
@@ -31,7 +40,7 @@ main {
     background-position: bottom;
 }
 
-.container-logo{
+.container-logo {
     padding: 1rem;
     width: 10%;
 }
@@ -44,7 +53,7 @@ main {
     margin: 1rem;
 }
 
-.container-menu ul{
+.container-menu ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -75,11 +84,11 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    .container-logo{
+    .container-logo {
         width: 30%;
     }
 
-    .container-menu ul{
+    .container-menu ul {
         justify-content: center;
     }
 
