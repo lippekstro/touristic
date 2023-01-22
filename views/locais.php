@@ -4,23 +4,50 @@ require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SE
 
 <div class="container-locais">
     <div class="card">
-        <div class="container">
-            
+        <div class="card-text">
+            <p>
+                O que Fazer?
+            </p>
         </div>
-        <div class="container-button">
-            <button>Confira</button>
+        <div class="dropdown">
+            <button class="dropbtn">Confira</button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
         </div>
     </div>
+
     <div class="card">
-        <div class="container">
-            <h4><b>John Doe</b></h4>
-            <p>Architect & Engineer</p>
+        <div class="card-text">
+            <p>
+                Onde Ficar?
+            </p>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Confira</button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
         </div>
     </div>
+
     <div class="card">
-        <div class="container">
-            <h4><b>John Doe</b></h4>
-            <p>Architect & Engineer</p>
+        <div class="card-text">
+            <p>
+                Onde Comer?
+            </p>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Confira</button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
         </div>
     </div>
 </div>
