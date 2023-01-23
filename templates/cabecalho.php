@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="<?= dirname('/touristic/css/style.css') . DIRECTORY_SEPARATOR . 'vertical_menu.css'; ?>">
     <link rel="stylesheet" href="<?= dirname('/touristic/css/blog.css') . DIRECTORY_SEPARATOR . 'blog.css'; ?>">
     <link rel="stylesheet" href="<?= dirname('/touristic/css/locais.css') . DIRECTORY_SEPARATOR . 'locais.css'; ?>">
+    <link rel="stylesheet" href="<?= dirname('/touristic/css/conteudo_locais.css') . DIRECTORY_SEPARATOR . 'conteudo_locais.css'; ?>">
 </head>
 
 <body>
