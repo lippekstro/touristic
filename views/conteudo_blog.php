@@ -42,15 +42,7 @@ $date = new IntlDateFormatter(
                     Adipisci, eos iure. Ratione cumque alias iure!
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum odit eveniet voluptas pariatur,
                     commodi totam aliquid a saepe incidunt facere similique ratione culpa iste ipsum at, cupiditate veniam, error omnis!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Corporis illo, modi pariatur assumenda in voluptate aliquam aperiam vitae beatae veritatis voluptatem reprehenderit architecto.
-                    Perferendis, sunt aliquam. In dolorum corrupti sapiente!
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Laborum odio nobis quia accusamus ab quis, labore error molestias in amet libero, fugiat ex?
-                    Adipisci, eos iure. Ratione cumque alias iure!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum odit eveniet voluptas pariatur,
-                    commodi totam aliquid a saepe incidunt facere similique ratione culpa iste ipsum at, cupiditate veniam, error omnis!
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    
                 </p>
             <?php endfor; ?>
         </div>

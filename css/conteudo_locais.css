@@ -19,7 +19,7 @@
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 0 18px;
+  padding: 1rem;
   background-color: var(--primaria);
   display: none;
   overflow: hidden;
