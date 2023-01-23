@@ -1,5 +1,15 @@
 <?php
 require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR . 'cabecalho.php';
+
+$date = new IntlDateFormatter(
+    'pt_BR',
+    IntlDateFormatter::SHORT,
+    IntlDateFormatter::SHORT,
+    'America/Sao_Paulo',
+    IntlDateFormatter::GREGORIAN,
+    "dd 'de' MMMM 'de' yyyy"
+);
+
 ?>
 
 <div class="container-conteudo">
@@ -9,7 +19,7 @@ require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SE
         </div>
         <div class="autor-data">
             <span>Juan Frazão</span>
-            <span><?= date('M d Y') ?></span>
+            <span><?= $date->format(new DateTime()) ?></span>
         </div>
     </div>
 
