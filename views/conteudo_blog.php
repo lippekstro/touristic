@@ -27,7 +27,7 @@ $date = new IntlDateFormatter(
 
     <div class="container-imagem-texto">
         <div class="imagem-conteudo">
-            <img src="https://source.unsplash.com/random/1920x1080/?landscape,mountain" alt="" style="width: 100%;">
+            <img src="https://source.unsplash.com/random/1920x1080/?bar" alt="" style="width: 100%;">
         </div>
         <div class="texto-conteudo">
             <?php for ($i = 0; $i < 5; $i++) : ?>

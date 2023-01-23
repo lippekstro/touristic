@@ -8,17 +8,17 @@ require_once 'templates/cabecalho.php';
 
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-            <img src="https://source.unsplash.com/random/1920x1080/?landscape,mountain" style="width:100%">
+            <img src="https://source.unsplash.com/random/1920x1080/?landscape,beach" style="width:100%">
             <div class="text">Caption Text</div>
         </div>
 
         <div class="mySlides fade">
-            <img src="https://source.unsplash.com/random/1920x1080/?landscape,night" style="width:100%">
+            <img src="https://source.unsplash.com/random/1920x1080/?landscape,coast" style="width:100%">
             <div class="text">Caption Two</div>
         </div>
 
         <div class="mySlides fade">
-            <img src="https://source.unsplash.com/random/1920x1080/?landscape,city" style="width:100%">
+            <img src="https://source.unsplash.com/random/1920x1080/?landscape,island" style="width:100%">
             <div class="text">Caption Three</div>
         </div>
 
@@ -39,40 +39,32 @@ require_once 'templates/cabecalho.php';
 <div>
     <div class="row">
         <div class="column">
-            <img src="https://source.unsplash.com/random/1920x1080/?wedding" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?rocks" style="width: 100%;">
+            <img src="https://source.unsplash.com/random/1920x1080/?beach" style="width: 100%;">
+            <img src="https://source.unsplash.com/random/1920x1080/?coast" style="width: 100%;">
             <img src="https://source.unsplash.com/random/1920x1080/?falls" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?paris" style="width: 100%;">
+            <img src="https://source.unsplash.com/random/1920x1080/?island" style="width: 100%;">
             <img src="https://source.unsplash.com/random/1920x1080/?nature" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?mist" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?smartphone" style="width: 100%;">
         </div>
         <div class="column">
-            <img src="https://source.unsplash.com/random/1920x1080/?wedding" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?rocks" style="width: 100%;">
+            <img src="https://source.unsplash.com/random/1920x1080/?beach" style="width: 100%;">
+            <img src="https://source.unsplash.com/random/1920x1080/?coast" style="width: 100%;">
             <img src="https://source.unsplash.com/random/1920x1080/?falls" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?paris" style="width: 100%;">
+            <img src="https://source.unsplash.com/random/1920x1080/?island" style="width: 100%;">
             <img src="https://source.unsplash.com/random/1920x1080/?nature" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?mist" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?smartphone" style="width: 100%;">
         </div>
         <div class="column">
-            <img src="https://source.unsplash.com/random/1920x1080/?wedding" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?rocks" style="width: 100%;">
+            <img src="https://source.unsplash.com/random/1920x1080/?beach" style="width: 100%;">
+            <img src="https://source.unsplash.com/random/1920x1080/?coast" style="width: 100%;">
             <img src="https://source.unsplash.com/random/1920x1080/?falls" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?paris" style="width: 100%;">
+            <img src="https://source.unsplash.com/random/1920x1080/?island" style="width: 100%;">
             <img src="https://source.unsplash.com/random/1920x1080/?nature" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?mist" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?smartphone" style="width: 100%;">
         </div>
         <div class="column">
-            <img src="https://source.unsplash.com/random/1920x1080/?wedding" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?rocks" style="width: 100%;">
+            <img src="https://source.unsplash.com/random/1920x1080/?beach" style="width: 100%;">
+            <img src="https://source.unsplash.com/random/1920x1080/?coast" style="width: 100%;">
             <img src="https://source.unsplash.com/random/1920x1080/?falls" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?paris" style="width: 100%;">
+            <img src="https://source.unsplash.com/random/1920x1080/?island" style="width: 100%;">
             <img src="https://source.unsplash.com/random/1920x1080/?nature" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?mist" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?smartphone" style="width: 100%;">
         </div>
     </div>
 </div>
