@@ -1,0 +1,35 @@
+.container-eventos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.evento-link {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.evento-link a {
+    text-decoration: none;
+    color: black;
+}
+
+.evento-link img {
+    border-radius: 50%;
+    min-height: 15rem;
+}
+
+.evento-titulo-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .evento-link {
+        width: 100%;
+    }
+}

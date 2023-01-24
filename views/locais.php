@@ -13,8 +13,8 @@ require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SE
             <button class="dropbtn">Confira</button>
             <div class="dropdown-content">
                 <a href="<?= dirname('/touristic/views/conteudo_locais.php') . DIRECTORY_SEPARATOR . 'conteudo_locais.php' ?>">Locais</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="<?= dirname('/touristic/views/conteudo_locais.php') . DIRECTORY_SEPARATOR . 'conteudo_locais.php' ?>">Locais 2</a>
+                <a href="<?= dirname('/touristic/views/conteudo_locais.php') . DIRECTORY_SEPARATOR . 'conteudo_locais.php' ?>">Locais 3</a>
             </div>
         </div>
     </div>
@@ -28,9 +28,9 @@ require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SE
         <div class="dropdown">
             <button class="dropbtn">Confira</button>
             <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="<?= dirname('/touristic/views/conteudo_locais.php') . DIRECTORY_SEPARATOR . 'conteudo_locais.php' ?>">Locais 1</a>
+                <a href="<?= dirname('/touristic/views/conteudo_locais.php') . DIRECTORY_SEPARATOR . 'conteudo_locais.php' ?>">Locais 2</a>
+                <a href="<?= dirname('/touristic/views/conteudo_locais.php') . DIRECTORY_SEPARATOR . 'conteudo_locais.php' ?>v">Locais 3</a>
             </div>
         </div>
     </div>
@@ -44,9 +44,9 @@ require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SE
         <div class="dropdown">
             <button class="dropbtn">Confira</button>
             <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="<?= dirname('/touristic/views/conteudo_locais.php') . DIRECTORY_SEPARATOR . 'conteudo_locais.php' ?>">Locais 1</a>
+                <a href="<?= dirname('/touristic/views/conteudo_locais.php') . DIRECTORY_SEPARATOR . 'conteudo_locais.php' ?>">Locais 2</a>
+                <a href="<?= dirname('/touristic/views/conteudo_locais.php') . DIRECTORY_SEPARATOR . 'conteudo_locais.php' ?>">Locais 3</a>
             </div>
         </div>
     </div>
