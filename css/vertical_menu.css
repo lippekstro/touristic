@@ -44,7 +44,12 @@
     border-left: none;
     height: 300px;
     text-align: justify;
+    line-height: 1.5rem;
     overflow: auto;
+}
+
+.tabcontent ul {
+    margin-left: 2rem;
 }
 
 .container-membro-equipe {

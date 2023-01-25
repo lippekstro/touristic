@@ -2,13 +2,13 @@
     border: 2px solid #dedede;
     background-color: var(--terciaria);
     border-radius: 5px;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 1rem;
+    margin: 1rem;
     display: flex;
+    justify-content: space-between;
 }
 
 .container-img {
-    width: 20%;
     margin: 1rem;
 }
 
@@ -20,12 +20,12 @@
 
 .container-comentario {
     margin: 1rem;
-    width: 60%;
     text-align: justify;
+    hyphens: auto;
+    width: 100%;
 }
 
 .container-data {
-    width: 20%;
     margin: 1rem;
     align-self: flex-end;
     display: flex;
@@ -36,6 +36,7 @@
 @media only screen and (max-width: 600px) {
     .container-img {
         width: 40%;
+        margin: 0;
     }
 
     .container-img img {
@@ -44,11 +45,7 @@
         border-radius: 50%;
     }
 
-    .container-comentario{
-        width: 100%;
-    }
     .container-data {
-        width: 10%;
         font-size: x-small;
     }
 }
