@@ -38,6 +38,7 @@ require_once 'templates/cabecalho.php';
 
 <div>
     <div class="row">
+        <?php for ($i=0; $i < 4; $i++): ?>
         <div class="column">
             <img src="https://source.unsplash.com/random/1920x1080/?beach" style="width: 100%;">
             <img src="https://source.unsplash.com/random/1920x1080/?coast" style="width: 100%;">
@@ -45,27 +46,7 @@ require_once 'templates/cabecalho.php';
             <img src="https://source.unsplash.com/random/1920x1080/?island" style="width: 100%;">
             <img src="https://source.unsplash.com/random/1920x1080/?nature" style="width: 100%;">
         </div>
-        <div class="column">
-            <img src="https://source.unsplash.com/random/1920x1080/?beach" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?coast" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?falls" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?island" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?nature" style="width: 100%;">
-        </div>
-        <div class="column">
-            <img src="https://source.unsplash.com/random/1920x1080/?beach" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?coast" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?falls" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?island" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?nature" style="width: 100%;">
-        </div>
-        <div class="column">
-            <img src="https://source.unsplash.com/random/1920x1080/?beach" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?coast" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?falls" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?island" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?nature" style="width: 100%;">
-        </div>
+        <?php endfor; ?>
     </div>
 </div>
 

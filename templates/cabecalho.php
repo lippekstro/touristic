@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="<?= dirname('/touristic/css/locais.css') . DIRECTORY_SEPARATOR . 'locais.css'; ?>">
     <link rel="stylesheet" href="<?= dirname('/touristic/css/conteudo_locais.css') . DIRECTORY_SEPARATOR . 'conteudo_locais.css'; ?>">
     <link rel="stylesheet" href="<?= dirname('/touristic/css/eventos.css') . DIRECTORY_SEPARATOR . 'eventos.css'; ?>">
+    <link rel="stylesheet" href="<?= dirname('/touristic/css/experiencias.css') . DIRECTORY_SEPARATOR . 'experiencias.css'; ?>">
 </head>
 
 <body>

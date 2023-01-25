@@ -1,0 +1,30 @@
+.container-elem-eve {
+    border: 2px solid #dedede;
+    background-color: var(--terciaria);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+}
+
+.container-img {
+    width: 20%;
+    margin: 1rem;
+}
+
+.container-img img {
+    width: 100%;
+}
+
+.container-comentario {
+    margin: 1rem;
+    width: 60%;
+}
+
+.container-data {
+    width: 20%;
+    margin: 1rem;
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
