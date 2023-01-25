@@ -11,9 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oregano&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?= dirname('/touristic/css/style.css') . DIRECTORY_SEPARATOR . 'style.css'; ?>">
-    <link rel="stylesheet" href="<?= dirname('/touristic/css/style.css') . DIRECTORY_SEPARATOR . 'carrossel.css'; ?>">
-    <link rel="stylesheet" href="<?= dirname('/touristic/css/style.css') . DIRECTORY_SEPARATOR . 'image_grid.css'; ?>">
-    <link rel="stylesheet" href="<?= dirname('/touristic/css/style.css') . DIRECTORY_SEPARATOR . 'vertical_menu.css'; ?>">
+    <link rel="stylesheet" href="<?= dirname('/touristic/css/carrossel.css') . DIRECTORY_SEPARATOR . 'carrossel.css'; ?>">
+    <link rel="stylesheet" href="<?= dirname('/touristic/css/image_grid.css') . DIRECTORY_SEPARATOR . 'image_grid.css'; ?>">
+    <link rel="stylesheet" href="<?= dirname('/touristic/css/sobre.css') . DIRECTORY_SEPARATOR . 'sobre.css'; ?>">
     <link rel="stylesheet" href="<?= dirname('/touristic/css/blog.css') . DIRECTORY_SEPARATOR . 'blog.css'; ?>">
     <link rel="stylesheet" href="<?= dirname('/touristic/css/locais.css') . DIRECTORY_SEPARATOR . 'locais.css'; ?>">
     <link rel="stylesheet" href="<?= dirname('/touristic/css/conteudo_locais.css') . DIRECTORY_SEPARATOR . 'conteudo_locais.css'; ?>">
