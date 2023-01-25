@@ -70,8 +70,12 @@ button {
     margin: 1rem;
 }
 
+.container-menu a:hover {
+    background-color: var(--quartenaria);
+}
+
 .menu-ativo {
-    background-color: darkkhaki;
+    background-color: var(--terciaria);
 }
 
 footer {

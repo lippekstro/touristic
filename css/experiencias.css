@@ -19,6 +19,7 @@
 .container-comentario {
     margin: 1rem;
     width: 60%;
+    text-align: justify;
 }
 
 .container-data {
@@ -27,4 +28,18 @@
     align-self: flex-end;
     display: flex;
     justify-content: flex-end;
+    font-size: small;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-img {
+        width: 40%;
+    }
+    .container-comentario{
+        width: 50%;
+    }
+    .container-data {
+        width: 10%;
+        font-size: x-small;
+    }
 }

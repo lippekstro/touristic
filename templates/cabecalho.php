@@ -32,22 +32,22 @@
         <div class="container-menu">
             <ul>
                 <li>
-                    <a class="menu-global" href="<?= dirname('/touristic/index.php') ?>">INICIO</a>
+                    <a class="menu-global" id="menu-inicio" href="<?= dirname('/touristic/index.php') ?>">INICIO</a>
                 </li>
                 <li>
-                    <a class="menu-global" href="<?= dirname('/touristic/views/blog.php') . DIRECTORY_SEPARATOR . 'blog.php' ?>">BLOG</a>
+                    <a class="menu-global" id="menu-blog" href="<?= dirname('/touristic/views/blog.php') . DIRECTORY_SEPARATOR . 'blog.php' ?>">BLOG</a>
                 </li>
                 <li>
-                    <a class="menu-global" href="<?= dirname('/touristic/views/locais.php') . DIRECTORY_SEPARATOR . 'locais.php' ?>">LOCAIS</a>
+                    <a class="menu-global" id="menu-locais" href="<?= dirname('/touristic/views/locais.php') . DIRECTORY_SEPARATOR . 'locais.php' ?>">LOCAIS</a>
                 </li>
                 <li>
-                    <a class="menu-global" href="<?= dirname('/touristic/views/experiencias.php') . DIRECTORY_SEPARATOR . 'experiencias.php' ?>">EXPERIENCIAS</a>
+                    <a class="menu-global" id="menu-experiencias" href="<?= dirname('/touristic/views/experiencias.php') . DIRECTORY_SEPARATOR . 'experiencias.php' ?>">EXPERIENCIAS</a>
                 </li>
                 <li>
-                    <a class="menu-global" href="<?= dirname('/touristic/views/eventos.php') . DIRECTORY_SEPARATOR . 'eventos.php' ?>">EVENTOS</a>
+                    <a class="menu-global" id="menu-eventos" href="<?= dirname('/touristic/views/eventos.php') . DIRECTORY_SEPARATOR . 'eventos.php' ?>">EVENTOS</a>
                 </li>
                 <li>
-                    <a class="menu-global" href="<?= dirname('/touristic/views/sobre.php') . DIRECTORY_SEPARATOR . 'sobre.php' ?>">SOBRE</a>
+                    <a class="menu-global" id="menu-sobre" href="<?= dirname('/touristic/views/sobre.php') . DIRECTORY_SEPARATOR . 'sobre.php' ?>">SOBRE</a>
                 </li>
             </ul>
         </div>
