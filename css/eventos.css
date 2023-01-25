@@ -23,7 +23,8 @@
 
 .evento-link img {
     border-radius: 50%;
-    min-height: 15rem;
+    height: 15rem;
+    width: 15rem;
 }
 
 .evento-titulo-img {

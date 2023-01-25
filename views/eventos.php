@@ -9,7 +9,7 @@ require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SE
                 <a href="<?= dirname('/touristic/views/conteudo_evento.php') . DIRECTORY_SEPARATOR . 'conteudo_evento.php' ?>">
                     <div class="evento-titulo-img">
                         <span>Festa X</span>
-                        <img src="https://source.unsplash.com/random/1920x1080/?party" alt="" style="width: 100%;">
+                        <img src="https://source.unsplash.com/random/1920x1080/?party" alt="">
                     </div>
                 </a>
             </div>
@@ -18,7 +18,7 @@ require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SE
                 <a href="<?= dirname('/touristic/views/conteudo_evento.php') . DIRECTORY_SEPARATOR . 'conteudo_evento.php' ?>">
                     <div class="evento-titulo-img">
                         <span>Show Y</span>
-                        <img src="https://source.unsplash.com/random/1920x1080/?show" alt="" style="width: 100%;">
+                        <img src="https://source.unsplash.com/random/1920x1080/?show" alt="">
                     </div>
                 </a>
             </div>
@@ -27,7 +27,7 @@ require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SE
                 <a href="<?= dirname('/touristic/views/conteudo_evento.php') . DIRECTORY_SEPARATOR . 'conteudo_evento.php' ?>">
                     <div class="evento-titulo-img">
                         <span>Feira Z</span>
-                        <img src="https://source.unsplash.com/random/1920x1080/?fair" alt="" style="width: 100%;">
+                        <img src="https://source.unsplash.com/random/1920x1080/?fair" alt="">
                     </div>
                 </a>
             </div>
@@ -36,7 +36,7 @@ require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SE
                 <a href="<?= dirname('/touristic/views/conteudo_evento.php') . DIRECTORY_SEPARATOR . 'conteudo_evento.php' ?>">
                     <div class="evento-titulo-img">
                         <span>Palestra A</span>
-                        <img src="https://source.unsplash.com/random/1920x1080/?people" alt="" style="width: 100%;">
+                        <img src="https://source.unsplash.com/random/1920x1080/?people" alt="">
                     </div>
                 </a>
             </div>
