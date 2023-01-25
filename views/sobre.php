@@ -12,34 +12,64 @@ require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SE
     <div id="London" class="tabcontent" style="display: block;">
         <h3>São Luis</h3>
         <p>
-            São Luís (frequentemente chamado de São Luís do Maranhão) é um município brasileiro e
-            a capital do estado do Maranhão.
-            É a única capital brasileira fundada por franceses,
-            no dia 8 de setembro de 1612, posteriormente invadida por holandeses
-            e por fim colonizada pelos portugueses.
-            Localiza-se na ilha de Upaon-Açu no Atlântico Sul,
-            entre as baías de São Marcos e São José de Ribamar, no Golfão Maranhense.
-            No ano de 1997 o centro histórico da cidade foi declarado
-            patrimônio cultural da humanidade pela UNESCO.
+            São Luís é uma cidade encantadora localizada na ilha de São Luís, no nordeste do Brasil. Com sua rica história e arquitetura colonial, a cidade é conhecida por sua beleza única e atmosfera acolhedora.
+
+            Os visitantes podem desfrutar de uma variedade de atividades, como passeios pelo centro histórico, que possui mais de 80 prédios tombados pelo patrimônio histórico. Aqui, é possível admirar a arquitetura colonial portuguesa, com suas casas coloridas e ruas estreitas. Além disso, existem vários museus e galerias de arte que contam a história da cidade e sua cultura.
+
+            Outra atração popular é o Mercado Municipal, onde os visitantes podem experimentar a culinária local e comprar artesanato. A cidade também oferece belas praias, como a Praia do Calhau, Praia do Bacanga e Praia do Jansen, para os amantes do sol e do mar.
+
+            Além disso, os amantes da natureza podem explorar as reservas ecológicas da ilha, como o Parque Estadual das Dunas, e ver a fauna e a flora única da região.
+
+            São Luís é uma cidade incrível que combina história, cultura, natureza e praias em um só lugar. Se você estiver planejando uma viagem para o Nordeste do Brasil, não deixe de visitar esta cidade encantadora.
         </p>
     </div>
 
     <div id="Paris" class="tabcontent" style="display: none;">
         <h3>O Site</h3>
         <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Obcaecati reprehenderit totam eveniet aliquid et nostrum dolore consectetur,
-            officiis corporis vitae quas natus sunt voluptatum magnam officia velit deleniti nihil vero.
+            O nosso site de turismo para São Luís é a sua melhor fonte de informações sobre a cidade. Ele oferece uma variedade de recursos para ajudá-lo a planejar sua viagem, incluindo:
+        <ul>
+            <li>Informações detalhadas sobre atrações turísticas populares, incluindo fotos e descrições para ajudá-lo a decidir o que visitar.</li>
+            <li>Dicas de viagem úteis para ajudá-lo a aproveitar ao máximo sua estadia na cidade.</li>
+            <li>Informações sobre hospedagem, incluindo opções para todos os orçamentos e tipos de viajantes.</li>
+            <li>Uma seção de dicas de restaurantes e bares, para que você possa experimentar a culinária local.</li>
+            <li>Informações sobre como se deslocar pela cidade, incluindo opções de transporte público e aluguel de carros.</li>
+        </ul>
+        Além disso, o nosso site também oferece uma seção de notícias e eventos, para que você possa ficar atualizado sobre as últimas atividades e acontecimentos na cidade.
+
+        Nós também oferecemos pacotes turísticos personalizados e reservas on-line para facilitar a sua viagem. Não hesite em entrar em contato conosco se tiver alguma dúvida ou precisar de ajuda com a sua reserva. Estamos sempre prontos para ajudá-lo a planejar uma viagem inesquecível para São Luís.
         </p>
     </div>
 
     <div id="Tokyo" class="tabcontent" style="display: none;">
         <h3>Nossa Equipe</h3>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Obcaecati reprehenderit totam eveniet aliquid et nostrum dolore consectetur,
-            officiis corporis vitae quas natus sunt voluptatum magnam officia velit deleniti nihil vero.
-        </p>
+        <div class="container-membro-equipe">
+            <div>
+                <img src="https://source.unsplash.com/random/1920x1080/?person, man" alt="">
+            </div>
+            <div>
+                <p><b>Fulano</b></p>
+                <p>CEO</p>
+            </div>
+        </div>
+        <div class="container-membro-equipe">
+            <div>
+                <img src="https://source.unsplash.com/random/1920x1080/?person, woman" alt="">
+            </div>
+            <div>
+                <p><b>Fulano</b></p>
+                <p>Web Designer</p>
+            </div>
+        </div>
+        <div class="container-membro-equipe">
+            <div>
+                <img src="https://source.unsplash.com/random/1920x1080/?person, man, young" alt="">
+            </div>
+            <div>
+                <p><b>Fulano</b></p>
+                <p>Desenvolvedor Web</p>
+            </div>
+        </div>
     </div>
 </div>
 

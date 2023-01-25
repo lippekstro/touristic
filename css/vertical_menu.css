@@ -1,6 +1,7 @@
-.container-tab-sobre{
+.container-tab-sobre {
     margin-bottom: 24rem;
 }
+
 /* Style the tab */
 .tab {
     float: left;
@@ -46,8 +47,24 @@
     overflow: auto;
 }
 
+.container-membro-equipe {
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    background-color: var(--terciaria);
+    text-align: justify;
+    hyphens: auto;
+}
+
+.container-membro-equipe img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
 @media only screen and (max-width: 600px) {
     .container-tab-sobre {
-      margin-bottom: 22rem;
+        margin-bottom: 22rem;
     }
-  }
+}
