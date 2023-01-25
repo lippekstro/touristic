@@ -2,7 +2,7 @@
 require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR . 'cabecalho.php';
 ?>
 
-<div>
+<div class="container-tab-sobre">
     <div class="tab">
         <button class="tablinks active" onclick="openCity(event, 'London')">São Luis</button>
         <button class="tablinks" onclick="openCity(event, 'Paris')">O Site</button>

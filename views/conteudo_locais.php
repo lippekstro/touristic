@@ -2,7 +2,7 @@
 require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR . 'cabecalho.php';
 ?>
 
-<div>
+<div class="container-accordion">
     <button class="accordion">Section 1</button>
     <div class="panel">
         <p>Lorem ipsum...</p>
