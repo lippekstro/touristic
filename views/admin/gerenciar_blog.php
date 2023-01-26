@@ -10,7 +10,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/cabecalho.php';
             <th>Autor</th>
             <th>Data</th>
             <th colspan="2">
-                <a href="">
+                <a href="/touristic/views/admin/criar_postagem_blog.php">
                     <span class="material-symbols-outlined">add</span>
                 </a>
             </th>
