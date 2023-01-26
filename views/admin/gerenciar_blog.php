@@ -13,9 +13,9 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/cabecalho.php';
     <table id="tabela_blog">
         <caption>Gerenciamento do Blog</caption>
         <tr>
-            <th>Titulo</th>
-            <th>Autor</th>
-            <th>Data</th>
+            <th onclick="ordenar(0)">Titulo</th>
+            <th onclick="ordenar(1)">Autor</th>
+            <th onclick="ordenar(2)">Data</th>
             <th colspan="2">
                 <a href="/touristic/views/admin/criar_postagem_blog.php">
                     <span class="material-symbols-outlined">add</span>
