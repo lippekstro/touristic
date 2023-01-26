@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oregano&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="/touristic/css/style.css">
     <link rel="stylesheet" href="/touristic/css/carrossel.css">
     <link rel="stylesheet" href="/touristic/css/image_grid.css">
@@ -19,6 +20,7 @@
     <link rel="stylesheet" href="/touristic/css/conteudo_locais.css">
     <link rel="stylesheet" href="/touristic/css/eventos.css">
     <link rel="stylesheet" href="/touristic/css/experiencias.css">
+    <link rel="stylesheet" href="/touristic/css/gerenciar_blog.css">
 </head>
 
 <body>
