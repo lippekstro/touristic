@@ -11,6 +11,7 @@
 <script src="/touristic/js/vertical_menu.js"></script>
 <script src="/touristic/js/conteudo_locais.js"></script>
 <script src="/touristic/js/menu.js"></script>
+<script src="/touristic/js/busca_na_tabela.js"></script>
 </body>
 
 </html>

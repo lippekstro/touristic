@@ -3,7 +3,14 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/cabecalho.php';
 ?>
 
 <div style="overflow-x: auto;">
-    <table>
+    <div class="icone-texto">
+        <label for="busca">
+            <span class="material-symbols-outlined">search</span>
+        </label>
+        <input type="text" id="busca" onkeyup="filtra_tabela()" placeholder="Busque uma postagem...">
+    </div>
+
+    <table id="tabela_blog">
         <caption>Gerenciamento do Blog</caption>
         <tr>
             <th>Titulo</th>
