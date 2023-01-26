@@ -1,5 +1,5 @@
 <?php
-require_once 'templates/cabecalho.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/cabecalho.php';
 ?>
 
 <div>
@@ -51,5 +51,5 @@ require_once 'templates/cabecalho.php';
 </div>
 
 <?php
-require_once 'templates/rodape.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/rodape.php';
 ?>

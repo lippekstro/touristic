@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR . 'cabecalho.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/cabecalho.php';
 
 $date = new IntlDateFormatter(
     'pt_BR',
@@ -51,5 +51,5 @@ $date = new IntlDateFormatter(
 </div>
 
 <?php
-require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR . 'rodape.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/rodape.php';
 ?>
