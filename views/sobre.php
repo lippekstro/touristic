@@ -45,7 +45,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/cabecalho.php';
         <h3>Nossa Equipe</h3>
         <div class="container-membro-equipe">
             <div>
-                <img src="https://source.unsplash.com/random/1920x1080/?person, man" alt="">
+                <img src="/touristic/img/megazord.jpg" alt="">
             </div>
             <div>
                 <p><b>Fulano</b></p>
@@ -54,7 +54,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/cabecalho.php';
         </div>
         <div class="container-membro-equipe">
             <div>
-                <img src="https://source.unsplash.com/random/1920x1080/?person, woman" alt="">
+                <img src="/touristic/img/mulher.jpg" alt="">
             </div>
             <div>
                 <p><b>Fulano</b></p>
@@ -63,7 +63,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/cabecalho.php';
         </div>
         <div class="container-membro-equipe">
             <div>
-                <img src="https://source.unsplash.com/random/1920x1080/?person, man, young" alt="">
+                <img src="/touristic/img/jovem.jpg" alt="">
             </div>
             <div>
                 <p><b>Fulano</b></p>

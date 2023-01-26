@@ -5,7 +5,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/cabecalho.php';
 <div class="container-bottom">
     <div class="container-blog">
         <div class="card">
-            <img src="https://source.unsplash.com/random/1920x1080/?show" alt="Avatar">
+            <img src="/touristic/img/show.jpg" alt="Avatar">
             <div class="container">
                 <h4><b>Show Y</b></h4>
                 <p>Data: 01/01/2023</p>

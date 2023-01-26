@@ -6,7 +6,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/cabecalho.php';
     <?php for ($i = 0; $i < 5; $i++) : ?>
         <a href="/touristic/views/conteudo_blog.php">
             <div class="card">
-                <img src="https://source.unsplash.com/random/1920x1080/?landscape,beach" alt="Avatar">
+                <img src="/touristic/img/palacio.jpg" alt="Avatar">
                 <div class="container">
                     <h4><b>John Doe</b></h4>
                     <p>

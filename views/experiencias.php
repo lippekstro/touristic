@@ -44,7 +44,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/cabecalho.php';
 
     <div class="container-elem-eve">
         <div class="container-img">
-            <img src="https://source.unsplash.com/random/1920x1080/?robot" alt="Avatar">
+            <img src="/touristic/img/megazord.jpg" alt="Avatar">
         </div>
         <div class="container-comentario">
             <p><b>Teste</b></p>
