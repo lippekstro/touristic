@@ -27,7 +27,7 @@
     <header>
         <div class="container-head">
             <div class="container-logo">
-                <img src="/touristic/img/barco.jpg" alt="" style="width: 100%;">
+                <img src="/touristic/img/barco.jpg" alt="um barco, logo da empresa">
             </div>
         </div>
 
