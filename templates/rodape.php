@@ -2,9 +2,8 @@
 
 <footer>
     <div>
-        <p>Todos os direitos reservados &copy; <?= date('Y')?></p>
+        <p>Todos os direitos reservados &copy; <?= date('Y') ?></p>
     </div>
-
 </footer>
 
 <script src="/touristic/js/carrossel.js"></script>

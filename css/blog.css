@@ -22,6 +22,7 @@
     text-align: justify;
     line-height: 1.5rem;
     overflow: auto;
+    height: 15rem;
 }
 
 .container-blog a {

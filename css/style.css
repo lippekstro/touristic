@@ -3,7 +3,7 @@
     --secundaria: #45453E;
     --terciaria: #F7F794;
     --quartenaria: #757546;
-    --quinta: #C2C2AE
+    --quinta: #C2C2AE;
 }
 
 * {
@@ -87,6 +87,27 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Codigo para fazer uma barra de rolagem personalizada */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 @media only screen and (max-width: 600px) {
