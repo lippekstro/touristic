@@ -10,6 +10,7 @@
 .container-blog .card img {
     /*define o tamanho da imagem*/
     width: 20%;
+    height: auto;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -26,6 +27,7 @@
     text-align: justify;
     line-height: 1.5rem;
     overflow: auto;
+    height: 15rem;
 }
 
 .container-blog a {/*este codigo seleciona a cor do texto*/
@@ -60,6 +62,11 @@
 .imagem-conteudo {
     /*este codigo coloca a imagem para ocupar 50% da div imagem-conteudo*/
     width: 50%;
+}
+
+.imagem-conteudo img {
+    width: 100%;
+    height: auto;
 }
 
 .texto-conteudo {

@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR . 'cabecalho.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/cabecalho.php';
 ?>
 
 <div>
@@ -44,7 +44,7 @@ require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SE
 
     <div class="container-elem-eve">
         <div class="container-img">
-            <img src="https://source.unsplash.com/random/1920x1080/?robot" alt="Avatar">
+            <img src="/touristic/img/megazord.jpg" alt="Avatar">
         </div>
         <div class="container-comentario">
             <p><b>Teste</b></p>
@@ -61,5 +61,5 @@ require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SE
 </div>
 
 <?php
-require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR . 'rodape.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/rodape.php';
 ?>

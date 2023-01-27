@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR . 'cabecalho.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/cabecalho.php';
 
 $date = new IntlDateFormatter(
     'pt_BR',
@@ -27,7 +27,7 @@ $date = new IntlDateFormatter(
 
     <div class="container-imagem-texto">
         <div class="imagem-conteudo">
-            <img src="https://source.unsplash.com/random/1920x1080/?bar" alt="" style="width: 100%;">
+            <img src="/touristic/img/bar.jpg">
         </div>
         <div class="texto-conteudo">
             <?php for ($i = 0; $i < 5; $i++) : ?>
@@ -51,5 +51,5 @@ $date = new IntlDateFormatter(
 </div>
 
 <?php
-require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR . 'rodape.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/rodape.php';
 ?>
