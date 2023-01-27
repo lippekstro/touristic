@@ -1,4 +1,5 @@
 .container-blog .card {
+    /* cria efeitos de sombra no card*/
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -7,17 +8,21 @@
 }
 
 .container-blog .card img {
+    /*define o tamanho da imagem*/
     width: 20%;
     height: auto;
 }
 
 /* On mouse-over, add a deeper shadow */
 .container-blog .card:hover {
+    /*coloca uma sombra nos cards onde o mouse passa*/
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
 }
 
 /* Add some padding inside the card container */
+
 .container-blog .container {
+    /*adiciona algum padding no container do card */
     padding: 1rem;
     text-align: justify;
     line-height: 1.5rem;
@@ -25,16 +30,18 @@
     height: 15rem;
 }
 
-.container-blog a {
+.container-blog a {/*este codigo seleciona a cor do texto*/
     text-decoration: none;
     color: black;
 }
 
 .container-titulo-autor {
+    /*esta parte do codigo coloca margem de 1rem no titulo do texto do autor*/
     margin: 1rem;
 }
 
 .container-imagem-texto {
+    /*este codigo define as configurações margem, coluna e centraliza os itens*/
     margin: 1rem;
     display: flex;
     align-items: center;
@@ -42,15 +49,18 @@
 }
 
 .titulo {
+    /*Este codigo coloca o texto de titulo centralizado*/
     text-align: center;
 }
 
 .autor-data {
+    /*Esta parte do codigo define as copnfigurações da data na pagina*/
     display: flex;
     justify-content: space-around;
 }
 
 .imagem-conteudo {
+    /*este codigo coloca a imagem para ocupar 50% da div imagem-conteudo*/
     width: 50%;
 }
 
@@ -60,21 +70,25 @@
 }
 
 .texto-conteudo {
-    text-align: justify;
-    text-indent: 2rem;
+    /*Este codigo define as configuraçoes do texto principal */
+    text-align: justify;/*este codigo justifica o texto*/
+    text-indent: 2rem;/*coloca uma margem em cada inicio de paragrafo no tamanho definido*/
     line-height: 1.5rem;
 }
 
 @media only screen and (max-width: 600px) {
+    /*Neste codigo o media query chama uma variavel define suas configurações quando a tela esteja 600px a imagem ocupa 100% da div*/
     .imagem-conteudo {
         width: 100%;
     }
 
     .container-blog .card {
+        /*Coloca a div em coluna */
         flex-direction: column;
     }
 
     .container-blog .card img {
+        /*define os cards em 100% da div*/
         width: 100%;
     }
 }
