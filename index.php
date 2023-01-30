@@ -1,5 +1,5 @@
 <?php
-require_once 'templates/cabecalho.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/cabecalho.php';
 ?>
 
 <div>
@@ -8,18 +8,18 @@ require_once 'templates/cabecalho.php';
 
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
-            <img src="https://source.unsplash.com/random/1920x1080/?landscape,beach" style="width:100%">
-            <div class="text">Caption Text</div>
+            <img src="/touristic/img/por_sol_praia.jpg">
+            <!-- <div class="text">Caption Text</div> -->
         </div>
 
         <div class="mySlides fade">
-            <img src="https://source.unsplash.com/random/1920x1080/?landscape,coast" style="width:100%">
-            <div class="text">Caption Two</div>
+            <img src="/touristic/img/litoral.jpg">
+           <!--  <div class="text">Caption Two</div> -->
         </div>
 
         <div class="mySlides fade">
-            <img src="https://source.unsplash.com/random/1920x1080/?landscape,island" style="width:100%">
-            <div class="text">Caption Three</div>
+            <img src="/touristic/img/agua.jpg">
+            <!-- <div class="text">Caption Three</div> -->
         </div>
 
         <!-- Next and previous buttons -->
@@ -38,37 +38,18 @@ require_once 'templates/cabecalho.php';
 
 <div>
     <div class="row">
+        <?php for ($i=0; $i < 4; $i++): ?>
         <div class="column">
-            <img src="https://source.unsplash.com/random/1920x1080/?beach" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?coast" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?falls" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?island" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?nature" style="width: 100%;">
+            <img src="/touristic/img/onda.jpg">
+            <img src="/touristic/img/horizonte.jpg">
+            <img src="/touristic/img/alto.jpg">
+            <img src="/touristic/img/barco_azul.jpg">
+            <img src="/touristic/img/por_sol_praia2.jpg">
         </div>
-        <div class="column">
-            <img src="https://source.unsplash.com/random/1920x1080/?beach" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?coast" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?falls" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?island" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?nature" style="width: 100%;">
-        </div>
-        <div class="column">
-            <img src="https://source.unsplash.com/random/1920x1080/?beach" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?coast" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?falls" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?island" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?nature" style="width: 100%;">
-        </div>
-        <div class="column">
-            <img src="https://source.unsplash.com/random/1920x1080/?beach" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?coast" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?falls" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?island" style="width: 100%;">
-            <img src="https://source.unsplash.com/random/1920x1080/?nature" style="width: 100%;">
-        </div>
+        <?php endfor; ?>
     </div>
 </div>
 
 <?php
-require_once 'templates/rodape.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/rodape.php';
 ?>
