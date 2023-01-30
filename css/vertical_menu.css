@@ -1,44 +1,45 @@
 /* Style the tab */
 .tab {
-    float: left;
-    border: 1px solid #ccc;
-    background-color: #f5f5db;
-    width: 30%;
-    height: 300px;
+    float: left;                /* float left- colocar imagem ao lado da outra imagem ou texto */
+    border: 1px solid #ccc;  /* border com pixel vem com o objetivo de aplicar a expressura do texto ou da img */
+    background-color: #f5f5db; /* server para alterar a cor do fundo da pagina */
+    width: 30%; /* serve para alterar a porcentagem de largura */
+    height: 300px; /* serve para alterar a porcentagen de altura */
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-    display: block;
-    background-color: inherit;
-    color: black;
+    display: block; /* blocos, elemntos ou textos em blocos */
+    background-color: inherit; /* server para alterar a cor do fundo da pagina */
+    color: black; /* serve para definir a cor da letra como preta */
     padding: 22px 16px;
-    width: 100%;
-    border: none;
+    width: 100%; /* serve para definir largura e porcentagem do mesmo */
+    border: none; /* border com pixel vem com o objetivo de aplicar a expressura do texto ou da img */
     outline: none;
-    text-align: left;
-    cursor: pointer;
-    transition: 0.3s;
+    text-align: left; /* serve para alinhar texto a esquerda da tela */
+    cursor: pointer; /* ao colocar o cursor na imagem o mesmo sai do modo seta para o modo a qual foi configurado (vira o formato de mão indicando) */
+    transition: 0.3s; /* serve para fazer a transição (tempo) de img ou texto ao clicar*/
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: var(--secundaria);
+    background-color: var(--secundaria); /* serve para chamara cor secubdária de outro local */
 }
 
 /* Create an active/current "tab button" class */
 .tab button.active {
-    background-color: var(--terciaria);
+    background-color: var(--terciaria); /* serve para chamar cor secubdária de outro local */
 }
 
 /* Style the tab content */
 .tabcontent {
-    float: left;
-    padding: 1rem;
-    border: 1px solid #ccc;
-    width: 70%;
-    border-left: none;
-    height: 300px;
-    text-align: justify;
-    overflow: auto;
+    float: left;    /* float left- colocar imagem ao lado da outra imagem ou texto */
+    padding: 1rem; /* Define a distancia ex: Bordas */
+    
+    border: 1px solid #ccc;  
+    width: 70%; /* serve para definir largura e porcentagem do mesmo */
+    border-left: none; /* border com pixel vem com o objetivo de aplicar a expressura do texto ou da img */
+    height: 300px;/* Altura*/
+    text-align: justify; /* serve para alinhar texto a esquerda da tela */
+    overflow: auto; /* Colocar o efeito  efeito de sombra da imagem ou texto que seja selecionado pela div no qual esta sendo chamada */
 }
