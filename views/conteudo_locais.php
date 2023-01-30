@@ -1,8 +1,8 @@
 <?php
-require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR . 'cabecalho.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/cabecalho.php';
 ?>
 
-<div>
+<div class="container-accordion">
     <button class="accordion">Section 1</button>
     <div class="panel">
         <p>Lorem ipsum...</p>
@@ -20,5 +20,5 @@ require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SE
 </div>
 
 <?php
-require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR . 'rodape.php';
+require_once $_SERVER["DOCUMENT_ROOT"] . '/touristic/templates/rodape.php';
 ?>

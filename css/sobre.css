@@ -1,3 +1,7 @@
+.container-tab-sobre {
+    margin-bottom: 24rem;
+}
+
 /* Style the tab */
 .tab {
     float: left;                /* float left- colocar imagem ao lado da outra imagem ou texto */
@@ -33,13 +37,40 @@
 
 /* Style the tab content */
 .tabcontent {
-    float: left;    /* float left- colocar imagem ao lado da outra imagem ou texto */
+
+    float: left; /* float left- colocar imagem ao lado da outra imagem ou texto */
     padding: 1rem; /* Define a distancia ex: Bordas */
-    
-    border: 1px solid #ccc;  
+    border: 1px solid #ccc;
     width: 70%; /* serve para definir largura e porcentagem do mesmo */
     border-left: none; /* border com pixel vem com o objetivo de aplicar a expressura do texto ou da img */
-    height: 300px;/* Altura*/
+    height: 300px; /* Altura*/
     text-align: justify; /* serve para alinhar texto a esquerda da tela */
+    line-height: 1.5rem;
     overflow: auto; /* Colocar o efeito  efeito de sombra da imagem ou texto que seja selecionado pela div no qual esta sendo chamada */
+}
+
+.tabcontent ul {
+    margin-left: 2rem;
+}
+
+.container-membro-equipe {
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    background-color: var(--terciaria);
+    text-align: justify;
+    hyphens: auto;
+}
+
+.container-membro-equipe img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-tab-sobre {
+        margin-bottom: 22rem;
+    }
 }

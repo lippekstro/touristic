@@ -1,0 +1,51 @@
+.container-elem-eve {
+    border: 2px solid #dedede;
+    background-color: var(--terciaria);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-img {
+    margin: 1rem;
+}
+
+.container-img img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.container-comentario {
+    margin: 1rem;
+    text-align: justify;
+    hyphens: auto;
+    width: 100%;
+}
+
+.container-data {
+    margin: 1rem;
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    font-size: small;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-img {
+        width: 40%;
+        margin: 0;
+    }
+
+    .container-img img {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+    }
+
+    .container-data {
+        font-size: x-small;
+    }
+}

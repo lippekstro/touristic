@@ -1,3 +1,7 @@
+.container-accordion{
+  margin-bottom: 20rem;
+}
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: var(--terciaria);
@@ -23,4 +27,10 @@
   background-color: var(--primaria);
   display: none;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-accordion {
+    margin-bottom: 12rem;
+  }
 }

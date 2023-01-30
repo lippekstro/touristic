@@ -1,5 +1,6 @@
 .container-locais {
     display: flex;
+    margin-bottom: 10rem;
 }
 
 .container-locais .card {
@@ -11,7 +12,7 @@
     background-repeat: no-repeat;
     width: 33%;
     margin: 1rem;
-    min-height: 500px;
+    min-height: 30rem;
     border-radius: 0 25% 0 0;
     position: relative;
 }
@@ -49,7 +50,7 @@
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 10rem;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -81,8 +82,11 @@
 @media only screen and (max-width: 600px) {
     .container-locais {
         flex-wrap: wrap;
+        margin-bottom: 0;
     }
     .container-locais .card {
         width: 100%;
+        margin-bottom: 10rem;
+        min-height: 20rem;
     }
 }
