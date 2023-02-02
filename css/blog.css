@@ -1,66 +1,76 @@
 .container-blog .card {
-    /* cria efeitos de sombra no card*/
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* esse codigo muda a sombra desse card no blog, adiciona cor, comprimento e altura */
+    box-shadow: 0 4px 2px 0 rgba(237, 14, 245, 0.2);
+    /* tempo de resposta para a cor da borda apareça */
     transition: 0.3s;
+    /* ativar a execução flex */
     display: flex;
+    /* regular a margem ao redor dos containers */
     margin: 1rem;
 }
 
 .container-blog .card img {
-    /*define o tamanho da imagem*/
+    /* define 20% de largura no container */
     width: 20%;
     height: auto;
 }
 
-/* On mouse-over, add a deeper shadow */
+    /* esse codigo muda a sobra desse card no blog quando passar o mouse em cima */
 .container-blog .card:hover {
-    /*coloca uma sombra nos cards onde o mouse passa*/
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    /* esse código muda a sombra após a transição */
+    box-shadow: 0 8px 16px 0 rgba(247, 16, 16, 0.4);
 }
 
-/* Add some padding inside the card container */
-
+    /* modifico tamanho e largura do card no blog */
 .container-blog .container {
-    /*adiciona algum padding no container do card */
+    /* espaçamento entre os textos e a borda dos containers */
     padding: 1rem;
+    /* distruibuído proporcionalmente dentro do container */
     text-align: justify;
+    /* espaçamento entrelinhas */
     line-height: 1.5rem;
+    /* criar uma barra de rolagem caso o texto seja maior que o card */
     overflow: auto;
     height: 15rem;
 }
 
-.container-blog a {/*este codigo seleciona a cor do texto*/
+.container-blog a {
+    /* remove as linhas abaixo dos textos */
     text-decoration: none;
+    /* cor do texto dentro dos containers */
     color: black;
 }
 
 .container-titulo-autor {
-    /*esta parte do codigo coloca margem de 1rem no titulo do texto do autor*/
+    /* da espaço do titulo do texto e a div da imagem */
     margin: 1rem;
 }
 
 .container-imagem-texto {
-    /*este codigo define as configurações margem, coluna e centraliza os itens*/
+    /* margem relativa entre o elemento da div e elementos a sua volta*/
     margin: 1rem;
+    /* tipo de direção  vai ter o elemnto*/
     display: flex;
+    /*centralizar a div*/
     align-items: center;
+    /* elemento dentro dessa div estão em coluna*/
     flex-direction: column;
 }
 
 .titulo {
-    /*Este codigo coloca o texto de titulo centralizado*/
+    /*centralizo o texto */
     text-align: center;
 }
 
 .autor-data {
-    /*Esta parte do codigo define as copnfigurações da data na pagina*/
+    /*  tipo de direção  vai ter o elemnt*/
     display: flex;
+    /* centralizar o texto*/
     justify-content: space-around;
 }
 
 .imagem-conteudo {
-    /*este codigo coloca a imagem para ocupar 50% da div imagem-conteudo*/
+    /* largura 50% */
     width: 50%;
 }
 
@@ -70,25 +80,31 @@
 }
 
 .texto-conteudo {
-    /*Este codigo define as configuraçoes do texto principal */
-    text-align: justify;/*este codigo justifica o texto*/
-    text-indent: 2rem;/*coloca uma margem em cada inicio de paragrafo no tamanho definido*/
+    /*justificar o texto  */
+    text-align: justify;
+    /* margem do paragrafo */
+    text-indent: 2rem;
+    /* espasamento estre linha*/
     line-height: 1.5rem;
 }
 
+    /* ate 600px  toda configuração abaixo sera aplicado ao elementos */
 @media only screen and (max-width: 600px) {
     /*Neste codigo o media query chama uma variavel define suas configurações quando a tela esteja 600px a imagem ocupa 100% da div*/
     .imagem-conteudo {
+        /* largura 100% */
         width: 100%;
     }
 
+    /*quando tamanho da tela for menor que 600px  */
     .container-blog .card {
-        /*Coloca a div em coluna */
+        /* todos os elementos ficam organizado em coluna*/
         flex-direction: column;
     }
 
+    /* */
     .container-blog .card img {
-        /*define os cards em 100% da div*/
+        /* elemento ocupará 100% da largura disponível em seu container */
         width: 100%;
     }
 }
