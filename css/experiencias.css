@@ -1,51 +1,51 @@
-.container-elem-eve {
-    border: 2px solid #dedede;
-    background-color: var(--terciaria);
+.container-elem-eve {/*-sao cards -*/
+    border: 2px solid #dedede;/*-ele da bordas-*/
+    background-color: var(--terciaria);/*-poe cor de fundo*/
     border-radius: 5px;
-    padding: 1rem;
-    margin: 1rem;
-    display: flex;
-    justify-content: space-between;
+    padding: 1rem; /*ele bota tamanho entre nos cards---*/
+    margin: 1rem; /*-da espaço--*/
+    display: flex;/*-ele organiza   -*/
+    justify-content: space-between;/*--*/
 }
 
-.container-img {
-    margin: 1rem;
+.container-img {/* card onde ta a imagens- */
+    margin: 1rem; /*ele aqui da margin nas letras elas ficam mais organizada aqui tambem porque fois usado  1rem--*/
 }
 
 .container-img img {
-    width: 8rem;
-    height: 8rem;
-    border-radius: 50%;
+    width: 8rem; /*ele bota tamanho--*/
+    height: 8rem;/*ele aumenta o tamnho dos cards---*/
+    border-radius: 50%;/*ele arredonda as imagens--*/
 }
 
-.container-comentario {
-    margin: 1rem;
+.container-comentario {/*onde ta os comentarios no cards--*/
+    margin: 1rem;/*-ele deixa as letras mas pra cima -*/
     text-align: justify;
-    hyphens: auto;
-    width: 100%;
+    hyphens: auto;/*-organiza os comentariso-*/
+    width: 100%;/*-tamano do comentario 100%-*/
 }
 
-.container-data {
-    margin: 1rem;
-    align-self: flex-end;
-    display: flex;
-    justify-content: flex-end;
-    font-size: small;
+.container-data { /*-as letras do container-*/
+    margin: 1rem;/*--aumenta o espaço das letras*/
+    align-self: flex-end;/*-alinha ao intem do container-*/
+    display: flex;/*-ele organiza de forma dinamica-*/
+    justify-content: flex-end;/*---*/
+    font-size: small;/*-diminui as letras-*/
 }
 
 @media only screen and (max-width: 600px) {
-    .container-img {
-        width: 40%;
-        margin: 0;
+    .container-img {/*-aonde esta inserido as img-*/
+        width: 40%;/*tamanho-*/
+        margin: 0;/*-voce pode da espacamento nas bordas--*/
     }
 
     .container-img img {
-        width: 5rem;
-        height: 5rem;
-        border-radius: 50%;
+        width: 5rem;/*-ele diminui as imagens-*/
+        height: 5rem;/*-ele aumentou o container junto das outras-*/
+        border-radius: 50%;/*-ageita as bordas da imagens-*/
     }
 
-    .container-data {
-        font-size: x-small;
+    .container-data {/*--data do container*/
+        font-size: x-small;/*-deixa as letras das imagens-*/
     }
 }
